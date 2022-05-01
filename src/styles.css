@@ -1,0 +1,264 @@
+.App {
+    font-family: "Inconsolata", monospace;
+    text-align: center;
+    background-color: #510603;
+    color: #ffdb26;
+    min-height: 650px;
+    font-size: 20px;
+}
+
+header {
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.active-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    padding-left: 35px;
+    font-size: 20px;
+}
+
+.no-active-link {
+    color: #ffdb26;
+    text-decoration: none;
+    padding-left: 35px;
+    font-size: 20px;
+}
+
+.footer {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 50px 0px;
+}
+
+.footerItem {
+    margin: 0px 50px;
+}
+
+.white {
+    color: white;
+}
+
+.contactText {
+    padding: 0px 250px;
+}
+
+.cash {
+    padding: 0px 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.cashImg {
+    width: 500px;
+}
+
+.news {
+    padding: 0px 30px;
+}
+
+.newsText {
+    padding: 0px 130px;
+}
+
+.newsBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.image {
+    padding: 10px;
+}
+
+.image img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.image img:hover {
+    border: 1px solid #ffdb26;
+}
+
+.menuBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 0px 160px;
+}
+
+.meal {
+    width: 250px;
+    border-bottom: 4px dotted white;
+    padding: 30px;
+    font-weight: bold;
+}
+
+.meal h6 {
+    font-size: 20px;
+}
+
+.about {
+    padding: 0px 150px;
+}
+
+.home img {
+    width: 600px;
+}
+
+.homeBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 0px 100px;
+}
+
+.homeItem {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.homeItem img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.homeItem img:hover {
+    border: 1px solid #ffdb26;
+}
+
+.homeText {
+    width: 400px;
+    margin-left: 100px;
+    -webkit-box-shadow: 10px 5px 5px #ffdb26;
+    box-shadow: 10px 5px 5px #ffdb26;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1115px) {
+    .homeItem img {
+        width: 300px;
+    }
+    .homeText {
+        width: 300px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 933px) {
+    .homeBox {
+        padding: 0px 20px;
+    }
+    .homeItem img {
+        width: 300px;
+    }
+    .homeText {
+        width: 300px;
+        margin-left: 20px;
+    }
+    .cash {
+        padding: 0px 50px;
+    }
+    .contactText {
+        padding: 0px 50px;
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .menuBox {
+        padding: 0px 50px;
+    }
+    header {
+        padding: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .home img {
+        width: 300px;
+    }
+    .newsText {
+        padding: 0px 30px;
+    }
+    .about {
+        padding: 0px 50px;
+    }
+    .footerItem {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .homeBox {
+        padding: 0px 10px;
+    }
+    .homeItem img {
+        width: 200px;
+    }
+    .homeText {
+        width: 200px;
+        margin-left: 10px;
+    }
+    .image img {
+        width: 200px;
+        border-radius: 10px;
+    }
+}
